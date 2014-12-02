@@ -7,4 +7,4 @@ dockerfile-debade
         -v /dev/log:/dev/log \
         -v /etc/lib/debade:/etc/lib/debade \
         -p 9191:80 \
-        -d pihizi/debade
+        -d pihizi/debade-agent
