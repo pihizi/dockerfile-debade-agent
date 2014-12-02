@@ -13,6 +13,7 @@ RUN (curl -sL https://deb.nodesource.com/setup | bash -) && \
     apt-get install -y nodejs && \
     npm install -g debade-agent
 
+ADD etc/debade/debade.conf /etc/debade/debade.conf
 
 EXPOSE 80
 
